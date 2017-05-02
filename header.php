@@ -49,7 +49,7 @@
 				<nav class="cl-effect-1">
 					<ul>
 						<li><a href="<?php echo $root;?>">Home</a></li>
-						<li><a href="<?php echo $root;?>/help">Help</a></li>
-						<li><a href="<?php echo $root;?>/about">About</a></li>
+						<li><a href="<?php echo $root;?>help">Help</a></li>
+						<li><a href="<?php echo $root;?>about">About</a></li>
 					</ul>
 				</nav>
