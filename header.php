@@ -39,10 +39,17 @@
 				</div>
 				</a>
 
+				<?php
+				$pathInPieces = explode('/', getcwd());
+				$rootname = $pathInPieces[4];
+				$root = (!empty($_SERVER['HTTPS']) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . '/' . $rootname;
+				?>
+
+
 				<nav class="cl-effect-1">
 					<ul>
-						<li><a href="/">Home</a></li>
-						<li><a href="/help">Help</a></li>
-						<li><a href="/about">About</a></li>
+						<li><a href="<?php echo $root;?>">Home</a></li>
+						<li><a href="<?php echo $root;?>/help">Help</a></li>
+						<li><a href="<?php echo $root;?>/about">About</a></li>
 					</ul>
 				</nav>
