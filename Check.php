@@ -32,6 +32,7 @@
 		<script type="text/javascript" src="js/loaded.js"></script>
 		<script type="text/javascript" src="clipboard.js-master/clipboard.js"></script>
 		<script type="text/javascript" src="clipboard.js-master/clipboard.min.js"></script>
+		<?php require 'footer.php'; ?>
 	</body>
 
 
