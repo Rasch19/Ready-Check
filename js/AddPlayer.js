@@ -48,7 +48,7 @@
 				success: function() {
 					console.log('send info');
 					Ready();
-					console('add ajax ready');
+					console.log('add ajax ready');
 				}
 			});
 		}

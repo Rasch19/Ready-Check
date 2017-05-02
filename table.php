@@ -16,7 +16,7 @@
 			$size = 500/$z;
 			for($y = 1; $y <= $z; $y++)
 			{
-				print("<th><img id='play$y' alt='$y player' src='img/unready.png' height='100' width='100'></img></th>");
+				print("<th><img id='play$y' class='readypic' alt='$y player' src='img/unready.png' height='100' width='100'></img></th>");
 			}
 			break;
 		}

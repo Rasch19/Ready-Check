@@ -12,7 +12,7 @@
 		$j = $h[$x];
 		if($j["url"] == $url)
 		{
-			if($j["counter"] < 5)
+			if($j["counter"] < $j["players"])
 			{
 				$j["counter"] = $j["counter"] + 1;
 				$h[$x] = $j;

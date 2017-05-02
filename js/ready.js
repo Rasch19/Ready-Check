@@ -12,11 +12,13 @@ function Ready() {
 	{
 		if( i < pn)
 		{
-			content[i].src = "img/ready.jpg";
+			content[i].src = "img/ready.png";
 			if(i == (players - 1))
 			{
 				var audio = new Audio('Dota2_music_respawn.mp3');
+				audio.volume = 0.7;
 				audio.play();
+				console.log("played audio");
 				button.innerHTML = "Unready";
 			}
 				
