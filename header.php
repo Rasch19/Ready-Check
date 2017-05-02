@@ -31,19 +31,19 @@
 	</head>
 	<body class="Site">
 
+		<?php
+		$pathInPieces = explode('/', getcwd());
+		$rootname = $pathInPieces[4];
+		$root = (!empty($_SERVER['HTTPS']) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . '/' . $rootname;
+		?>
+
 
 			<div class="container">
-				<a href="" style="text-decoration: none;">
+				<a href="<?php echo $root;?>" style="text-decoration: none;">
 				<div class="header" style="background-image: url('https://static.pexels.com/photos/49883/pexels-photo-49883.jpeg');">
 					<span class="header-title"><h1>READY CHECK</h1></span>
 				</div>
 				</a>
-
-				<?php
-				$pathInPieces = explode('/', getcwd());
-				$rootname = $pathInPieces[4];
-				$root = (!empty($_SERVER['HTTPS']) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . '/' . $rootname;
-				?>
 
 
 				<nav class="cl-effect-1">
