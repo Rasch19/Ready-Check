@@ -21,6 +21,12 @@
 						</tr>
 					</table>
 
+					<table id="again" align="center">
+						<tr>
+							<th><a class="button" href="/">New Ready-Check</a></th>
+						</tr>
+					</table>
+
 				</div>
 			</div>
 			

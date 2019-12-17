@@ -39,17 +39,17 @@
 
 
 			<div class="container">
-				<a href="<?php echo $root;?>" style="text-decoration: none;">
-				<div class="header" style="background-image: url('https://static.pexels.com/photos/49883/pexels-photo-49883.jpeg');">
+				<a href="/" style="text-decoration: none;">
+				<!--div class="header" style="background-image: url('https://static.pexels.com/photos/49883/pexels-photo-49883.jpeg');">
 					<span class="header-title"><h1>READY CHECK</h1></span>
-				</div>
+				</div-->
 				</a>
 
 
 				<nav class="cl-effect-1">
 					<ul>
 						<li><a href="<?php echo $root;?>">Home</a></li>
-						<li><a href="<?php echo $root;?>help">Help</a></li>
-						<li><a href="<?php echo $root;?>about">About</a></li>
+						<!--li><a href="<?php echo $root;?>help">Help</a></li>
+						<li><a href="<?php echo $root;?>about">About</a></li-->
 					</ul>
 				</nav>
